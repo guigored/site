@@ -199,3 +199,12 @@ background-color: #fff;
 .section-bg{
     background-color: #ecd1b2;
 }
+
+.carousel-control-prev {
+    margin-left: -50px;
+}
+
+.carousel-control-next {
+
+    margin-right: -50px;
+}
