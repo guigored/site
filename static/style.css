@@ -201,10 +201,49 @@ background-color: #fff;
 }
 
 .carousel-control-prev {
-    margin-left: -50px;
+    margin-left: -4rem;
+    
+    opacity: 1;
 }
 
 .carousel-control-next {
 
-    margin-right: -50px;
+    margin-right: -4rem;
+    opacity: 1;
+    
+    
 }
+
+
+.card {
+
+    width: 230px;
+    height: 230px;
+    border-radius: 15px;
+   
+
+
+}
+
+.carousel-item {
+
+    margin-left: 27px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 1860px){
+    .carousel-control-prev{
+        margin-left: 0;
+    }
+    .carousel-control-next{
+
+        margin-right: 0;
+    }
+    .carousel-item{
+
+        margin-left: 75px;
+    }
+}
+
+
