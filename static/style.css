@@ -203,14 +203,12 @@ background-color: #fff;
 .carousel-control-prev {
     margin-left: -4rem;
     
-    opacity: 1;
+   
 }
 
 .carousel-control-next {
 
     margin-right: -4rem;
-    opacity: 1;
-    
     
 }
 
@@ -219,20 +217,16 @@ background-color: #fff;
 
     width: 230px;
     height: 230px;
-    border-radius: 15px;
-   
-
-
 }
 
 .carousel-item {
 
-    margin-left: 27px;
+    margin-left: 60px;
     margin-bottom: 3rem;
     margin-top: 2rem;
 }
 
-@media (max-width: 1860px){
+@media (max-width: 900px) {
     .carousel-control-prev{
         margin-left: 0;
     }
@@ -245,5 +239,3 @@ background-color: #fff;
         margin-left: 75px;
     }
 }
-
-
