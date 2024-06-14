@@ -252,7 +252,7 @@ background-color: #fff;
 
 [data-anime="right"] {
 
-    transform: translate3d(50px, 0, 0);
+    transform: translate3d(100%, 0, 0);
 
 }
 
