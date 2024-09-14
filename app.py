@@ -33,6 +33,10 @@ class Contato:
 def index():
     return render_template('index.html')
 
+@app.route('/adelzonilton')
+def adelzonilton():
+    return render_template('Adelzonilton.html')
+
 
 @app.route('/send', methods=['GET', 'POST'])
 def send():
