@@ -7,7 +7,7 @@ app.secret_key = 'obrabodogalo'
 
 mail_settings = {
 
-    "MAIL_SERVER": 'smtp.gmail.com',
+    "MAIL_SERVER": 'smtp.hostinger.com',
     "MAIL_PORT": 465,
     "MAIL_USE_TLS": False,
     "MAIL_USE_SSL": True,

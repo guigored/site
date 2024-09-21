@@ -56,18 +56,21 @@ window.addEventListener("scroll", ()=>{
 
 const btnEnviar = document.querySelector('#btn-enviar')
 const btnEnviarLoader = document.querySelector('#btn-enviar-loader')
+const input1 = document.getElementById('nome');
+const input2 = document.getElementById('email');
+const input3 = document.getElementById('mensagem');
 
-btnEnviar.addEventListener("click", ()=>{
-    btnEnviarLoader.style.display = "block";
-    btnEnviar.style.display = "none"
-
-
+btnEnviar.addEventListener("click", () => {
+    
+    if (input1.value && input2.value && input3.value) {
+        btnEnviarLoader.style.display = "block";
+        btnEnviar.style.display = "none";
+    }
 })
 
 // Tirar a mensagem de sucesso depois de 5 segundos
 
 setTimeout(() => {
     document.querySelector('#alerta').style.display = 'none';
-
-}, 3000)
+}, 5000)
 

@@ -1,2 +1,2 @@
-email = 'contato.bezerraobrabao@gmail.com'
-senha = 'BezerraoDoGalo157'
+email = 'admin@bezerraobrabao.com.br'
+senha = 'MalandroRife13#'
